@@ -4,7 +4,7 @@
   "description": "RESTful API for five-star-autosales e-commerce platform. This API is responsible for managing products, handling user authentication and processing orders. The goal is to create a scalable ecure and efficient API that adheres to RESTful principles",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node dist/server.js",
     "start:dev": "nodemon src/server.ts",
     "build": "npm i && tsc -p . && cp -r ./package.json dist/"
   },

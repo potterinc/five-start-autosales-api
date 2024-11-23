@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/server.js",
     "start:dev": "nodemon src/server.ts",
-    "build": "tsc -p ."
+    "build": "npm i && tsc -p . && cp -r ./package.json dist/"
   },
   "repository": {
     "type": "git",
